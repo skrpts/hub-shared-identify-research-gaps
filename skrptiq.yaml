@@ -1,0 +1,25 @@
+# --- Identity ---
+id: "80a663a9-b360-4b3b-9168-f6429cad316d"
+name: "identify-research-gaps"
+display_name: "Identify Research Gaps"
+description: "Analyses existing literature to find gaps, contradictions, and opportunities for new research"
+version: "1.0.0"
+engine: ">=0.1.0"
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+licence: "MIT"
+repository: "https://github.com/skrpts/hub-shared-identify-research-gaps"
+category: "shared"
+tags:
+  - "shared"
+  - "prompt"
+contents:
+  skills: 0
+  prompts: 1
+  workflows: 0
+  services: 0
+  sources: 0
+  documents: 0
+  assets: 0
+  total: 1
