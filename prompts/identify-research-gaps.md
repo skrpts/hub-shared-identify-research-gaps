@@ -4,6 +4,11 @@ id: identify-research-gaps
 title: Identify Research Gaps
 description: "Analyses existing literature to find gaps, contradictions, and opportunities for new research"
 tags: [Production, Academic, Research]
+context_params:
+  source:
+    label: "Prior Analysis"
+    description: "The prior Analysis supplied by the upstream step."
+    required: true
 inputs:
   research_topic:
     label: "Research Topic"
@@ -34,7 +39,7 @@ Drives the research gap identification skill. Analyses the existing literature a
 
 ## Prompt
 
-You are a research analyst specialising in literature gap analysis. Based on the research context below, identify gaps in the existing knowledge.
+You are a research analyst specializing in literature gap analysis. Based on the research context below, identify gaps in the existing knowledge.
 
 ### Research Context
 
@@ -44,11 +49,11 @@ You are a research analyst specialising in literature gap analysis. Based on the
 
 ### Prior Analysis
 
-{{steps.previous.output}}
+{{step.context.source}}
 
 ### Instructions
 
-Analyse the provided literature and context to identify:
+Analyze the provided literature and context to identify:
 
 1. **Knowledge gaps** — specific questions the existing literature does not answer. For each gap, cite which studies come closest and explain what is missing.
 2. **Methodological gaps** — approaches, populations, or settings that have not been studied. Explain why these gaps matter.
@@ -58,7 +63,7 @@ Analyse the provided literature and context to identify:
 
 ### Output Format
 
-Structure your analysis with clear headings for each section. For each gap or contradiction, reference the specific studies or findings involved. Prioritise gaps by significance — how much would answering this question advance the field?
+Structure your analysis with clear headings for each section. For each gap or contradiction, reference the specific studies or findings involved. Prioritize gaps by significance — how much would answering this question advance the field?
 
 ## Formatting Rules
 

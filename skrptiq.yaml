@@ -3,7 +3,7 @@ id: "2d8ba838-4b6e-4b33-ad6b-cd2bdc8b9cac"
 name: "identify-research-gaps"
 display_name: "Identify Research Gaps"
 description: "Analyses existing literature to find gaps, contradictions, and opportunities for new research"
-version: "1.0.2"
+version: "1.0.3"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -25,3 +25,17 @@ contents:
   documents: 0
   assets: 0
   total: 1
+
+security:
+  status: "pass"
+  scanned_at: "2026-10-25T16:47:38.834Z"
+  scanner_version: "3.3.0"
+  syntactic: "pass"
+  structural: "pass"
+  detected:
+    services: []
+    permissions: []
+    data_handling: []
+  undeclared: []
+  warnings: []
+  report_url: "https://hub.skrptiq.ai/skrpts/identify-research-gaps/security"
